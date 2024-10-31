@@ -35,7 +35,7 @@ footer{
     background-image: url(../images/FooterWave-01.png);
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     color: white;
 
