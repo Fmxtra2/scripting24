@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap');
+
+header{
+    background-image: url("../images/HeaderDrip-01.png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+}
+
+image{
+    padding-top: 20%;
+}
+
+p{
+    font-family: "Special Elite", system-ui;
+    font-size: 18px;
+}
+
+h1, h2{
+    font-family: "Creepster", system-ui;
+    text-align: center;
+}
+
+h3{
+    font-family: "Special Elite", system-ui;
+}
+
+#section2 p{
+    font-family: "Special Elite", system-ui;
+}
+
+footer{
+    background-image: url(../images/FooterWave-01.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+
+}
+
+#logo{
+    text-align: right;
+}
+
+a{
+    color: rgb(111, 53, 187);
+    text-decoration: underline;
+}
+
+a:hover{
+    color: brown;
+}
+
+body{
+    background-color: rgb(207, 138, 240);
+
+}
