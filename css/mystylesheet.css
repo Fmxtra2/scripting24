@@ -32,13 +32,15 @@ h3{
 }
 
 footer{
-    background-image: url(../images/FooterWave-01.png);
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    
+    
+    
     color: white;
 
+}
+
+#footerInfo{
+    background-color: #1a1027;
 }
 
 #logo{
@@ -57,4 +59,11 @@ a:hover{
 body{
     background-color: rgb(207, 138, 240);
 
+}
+
+#swirl{
+    background-image: url(../images/FooterWave-02.png);
+    background-position: top;
+    background-size: cover;
+    min-height: 30vh;
 }
