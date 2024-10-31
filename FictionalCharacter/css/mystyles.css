@@ -1,0 +1,149 @@
+.playwrite-de-grund- {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fredoka {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.exo-2 {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+i{
+    color: bisque;
+}
+
+header {
+    margin: 0;
+    background-color: rgb(11, 68, 3);
+    text-align: center;
+    font-family: "Playwrite DE Grund";
+}
+
+h1 {
+color: rgba(213, 216, 29, 0.938);
+font-size: 50px;
+margin: 0;
+font-family: "Exo 2";
+}
+
+h2 {
+    font-family: "Fredoka";
+    color: bisque;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 22px;
+    color: antiquewhite;
+    text-align: center;
+    margin: 0;
+    font-family: "Fredoka";
+}
+body {
+    background-image: url(https://garden.spoonflower.com/c/12295367/p/f/m/D_gaFX3rD_P6Mw4kfGGDMWeXAtzW9WI9m5pPIvfGV-qXYLZgxHWZFd3v6w/Tri%20Angle%20Force%2C%20Gold%20on%20Green.jpg);
+    margin: 0;
+
+}
+
+footer nav{
+    background-color: rgb(2, 46, 2);
+}
+footer nav a{
+    float: none;
+}
+footer nav a:hover{
+    background-color: rgb(97, 133, 26);
+}
+
+nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(97, 133, 26);
+    top: 0;
+    width: 100%;
+    font-family: "Playwrite DE Grund";
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    float: left;
+    
+}
+
+
+nav a:hover{
+    background-color: rgb(2, 46, 2);
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: bisque;
+    font-family: "Exo 2";
+}
+
+section{
+    text-align: center;
+    background-color: rgb(97, 133, 26);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 25px;
+}
+
+ul{
+    text-align: center;
+    font-size: 20px;
+}
+
+li{
+    font-family: "Playwrite DE Grund";
+    text-align: center;
+    list-style-type: none;
+    color: antiquewhite;
+}
+
+footer{
+    background-color: rgb(2, 46, 2);
+    margin: 0;
+    padding: 25px;
+   
+}
+
+footer li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+
+}
+
+.alternate{
+    background-color: rgb(77, 105, 21);
+}
+
