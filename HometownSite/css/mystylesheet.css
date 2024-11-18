@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Merienda:wght@300..900&display=swap');
+
+
+header{
+    text-align: center;
+    background-image: url("../images/FieldTrail.png");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    padding: 65px;
+}
+
+#geography{
+    background-image: url("../images/HomeTrail.png");
+    background-position: bottom;
+}
+
+#people{
+    background-image: url("../images/PinkTree.png");
+    background-position: bottom;
+}
+
+#economy{
+    background-image: url("../images/HomeTrail.png");
+    background-position: top;
+}
+
+#attractions{
+    background-image: url("../images/FieldTrail.png");
+    background-position: bottom;
+}
+
+h1{
+    font-family: "Lavishly Yours", serif; 
+    font-size: 80px;
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3{
+    font-family: "Merienda", serif; 
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a{
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    color: red;  
+    text-decoration: none; 
+}
+
+footer{
+    background-color: rgb(65, 65, 65);
+    color: rgb(168, 168, 168);
+    
+    text-align: center;
+}
+
+footer h2{
+    font-family: "Lavishly Yours", serif;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+ul{
+    font-family: "Merienda", serif;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+#ecolist{
+    list-style-type: disc;
+    text-align: left;
+}
+
+li{
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(204, 171, 149);
+}
+
+p{
+    font-family: "Merienda", serif;  
+}
+
+#peoplebody{
+    background-color: rgb(247, 212, 218);
+}
