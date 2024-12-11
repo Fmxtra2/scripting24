@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Name That Scary Movie!</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-8 bg-light mx-auto p-5 rounded">
+                    <h1>Name That Scary Movie!</h1>
+                    <h3>Madlib</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <p> Have you ever looked at a movie title and thought, "Hmmmm, I could make that better! Well here's your chance!! We have a small list of movies for you to play around with! Come up with funny or even spookier ones and get together with friends for a laugh!! </p>
+        <form action="javascript:write();">
+            <div class="form-group"> 
+                <div class="form-group">
+                <label for="szn">Season:</label>
+                <input type="text" class="form-control" id="szn">
+            </div>
+                <label for="fruit">Fruit:</label>
+                <input type="text" class="form-control" id="fruit">
+            </div>
+            <div class="form-group">
+                <label for="animal">Animal:</label>
+                <input type="text" class="form-control" id="animal">
+            </div>
+            <div class="form-group">
+                <label for="noun">Noun:</label>
+                <input type="text" class="form-control" id="noun">
+            </div>
+            <div class="form-group">
+                <label for="time">Time; Day/Night:</label>
+                <input type="text" class="form-control" id="time">
+            </div>
+            <div class="form-group">
+                <label for="adj">Adjective:</label>
+                <input type="text" class="form-control" id="adj">
+            </div>
+            <div class="form-group">
+                <label for="toy">Toy:</label>
+                <input type="text" class="form-control" id="toy">
+            </div>
+            <div class="form-group">
+                <label for="weapon">Weapon:</label>
+                <input type="text" class="form-control" id="weapon">
+            </div>
+            <div class="form-group">
+                <label for="place">Place/Setting:</label>
+                <input type="text" class="form-control" id="place">
+            </div>
+            <div class="form-group">
+                <p>Favorite Villan:</p>
+                <div class="form-check">
+                    <label for="pennywise" class="form-check-label">
+                        <input type="radio" class="form-check-input" name="villan" value="pennywise"
+                            id="pennywise">Pennywise
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label for="michael" class="form-check-label">
+                        <input type="radio" class="form-check-input" name="villan" value="michael"
+                            id="michael">Michael Myers
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label for="ghostface" class="form-check-label">
+                        <input type="radio" class="form-check-input" name="villan" value="ghostface"
+                            id="ghostface">Ghostface
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label for="jason" class="form-check-label">
+                        <input type="radio" class="form-check-input" name="villan" value="jason"
+                            id="jason">Jason Voorhees
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-block btn-outline-danger">Submit</button>
+        </form>
+
+        <div class="row">
+            <div id="output1" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>I Know What You Did Last ____ </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output2" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>Attack of the Killer ____</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output3" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>Killer ____ From Outer Space</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output4" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>28 ____ Later</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output5" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>____ of the Living Dead</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output6" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>A ____ Place</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output7" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>I Saw the ____ Glow</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output8" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>Texas ____ Massacre</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output9" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>Tales From the ____</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output10" class="col-sm-6 mx-auto bg-secondary p-5 rounded text-black">
+                <h2>Who's Your Crossover?!</h2>
+            </div>
+        </div>
+
+</section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 py-5">
+                    <img class="img-fluid" src="/images/JasonVoorhees.png">
+                </div>
+
+                <div class="col-sm-4 bg-light mx-auto py-5 rounded">
+                    <h2>Hello Spooky Fam!</h2>
+                    <p>Thank You For Playing!!</p>
+                </div>
+                <div class="col-sm-4 py-5">
+                    <img class="img-fluid" src="/images/Ghostface.png">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/intro.js"></script>
+</body>
+
+</html>
